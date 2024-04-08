@@ -1,0 +1,22 @@
+class campus:
+  name=input ("Enter the university name:/n")
+  location=input("Enter your campus location:/n")
+def show(self):
+  print("campus name"=self-name,"and locatin in",self-location)
+class department (campus):
+  name=input ("Enter your department name:/n")
+  head=input ("Enter your dean name:/n")
+  campus=input ("Enter your campus:/n")
+def info(self):
+   print("department=","self_name"and head of computer department",self_campus)
+class faculty:
+    name=input ("Enput your faculty:/n")
+    head=input("Enter your head of faculty:")
+    department=input ("Enter your department")
+def init(self):
+     print("faculty name=self_name,"and head of faculty",self_head,"and department",self_department)
+m=department
+m.show()
+m.info()
+k=faculty()
+k.init()
